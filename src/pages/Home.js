@@ -13,7 +13,6 @@ const Home = () => {
       items.category === "women's clothing"
     );
   });
-  console.log(filteredProducts, "fff");
 
   return (
     <div>
