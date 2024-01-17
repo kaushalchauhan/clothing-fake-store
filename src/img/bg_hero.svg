@@ -1,9 +1,9 @@
-<svg width="1800" height="800" viewBox="0 0 1800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="1" y="1" width="1798" height="798" fill="white" stroke="#F5E6E0" stroke-width="2"/>
-<rect x="10" y="10" width="1780" height="780" fill="#F5E6E0"/>
-<mask id="mask0_239_5921" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="1780" height="780">
-<rect x="10" y="10" width="1780" height="780" fill="#F5E6E0"/>
-</mask>
+<svg width="1800" height="800" viewBox="0 0 1800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="1798" height="798" fill="#5f9ea0" stroke="#F5E6E0" stroke-width="2"/>
+  <rect x="10" y="10" width="1780" height="780" fill="#5f9ea0"/>
+  <mask id="mask0_239_5921" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="10" y="10" width="1780" height="780">
+    <rect x="10" y="10" width="1780" height="780" fill="#5f9ea0"/>
+  </mask>
 <g mask="url(#mask0_239_5921)">
 <g opacity="0.4">
 <path d="M455.1 136.6L322.2 290.2L323.7 291.5L456.6 137.9L455.1 136.6Z" fill="white"/>
