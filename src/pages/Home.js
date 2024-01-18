@@ -30,8 +30,8 @@ const Home = () => {
         </div>
       </section>
       <section className="py-16">
-        <div className="flex justify-center items-center">
-          <h1 className="text-3xl leading-[1.1] font-light mb-4 capitalize lg:text-7xl">
+        <div className="flex justify-center items-center px-4">
+          <h1 className="text-center text-3xl leading-[1.1] font-light mb-4 capitalize lg:text-7xl">
             {selectedCategory} Products
           </h1>
         </div>
