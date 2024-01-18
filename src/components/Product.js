@@ -4,9 +4,12 @@ import { BsPlus, BsEyeFill } from "react-icons/bs";
 //  import cart context
 import { CartContext } from "../contexts/CartContext";
 
-const Product = ({ product }) => {
+const Product = ({ product, filterCategory }) => {
   const { addToCart } = useContext(CartContext);
   const { id, image, category, title, price } = product;
+  if (filterCategory && category !== filterCategory) {
+    return null; // Skip rendering if the category doesn't match
+  }
   return (
     <div>
       <div className="border border-[#e4e4e4] h-[300px] mb-4 relative overflow-hidden group transition">
