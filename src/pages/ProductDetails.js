@@ -14,7 +14,7 @@ const ProductDetails = () => {
     return item.id === parseInt(id);
   });
   // destructure product
-  const { description, image, title, price, rating } = product;
+  const { description, image, title, price } = product;
   console.log(product);
 
   // // if product is not found
